@@ -1,0 +1,237 @@
+/* Responsive CSS Document */
+
+/*
+    Created on   : 12/11/2017.
+    Theme Name   : binsur.
+    Description  : binsur. Insurance-Agency HTML Template.
+    Version      : 1.0.
+    Author       : @Unifytheme.
+    Developed by : @Unifytheme.
+*/
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+	.portfolio-item .item-opacity>div {left: 20px; right: 20px; padding: 20px 10px 10px;}
+	.portfolio-item .item-opacity>div>h6 {margin-bottom: 10px;}
+	.portfolio-item .item-opacity>div>a {top: -60px;}
+}
+/*(min-width: 1200px) and (max-width: 1400px)*/
+@media (min-width: 1200px) and (max-width: 1300px) {
+	.Service-V-2-Insurance-Service .insurance-service-four-column .item-bg-v-two {padding: 0 10px 30px 20px;}
+}
+/*(min-width: 1200px) and (max-width: 1300px)*/
+@media (min-width: 992px) {
+	.container {padding-left: 0 !important; padding-right: 0 !important;}
+}
+/*(max-width: 992px)*/
+@media (max-width: 1199px) {
+	.main-menu {padding: 15px 15px 0;}
+	.main-menu .navbar-nav >li>a {padding: 0 14px 1px;}
+	.create-a-strong .create-strong-img-item {padding-left: 0;}
+	.Getting-Business .Getting-Business-img {padding: 0 30px 0 30px;}
+	.Testimonial-Section .Testimonial-Item>.Title {padding-left: 30px;}
+	.Testimonial-Section .Testimonial-Item>.Text:before {left: 60px;}
+	.Footer-title-top h3>br {display: none;}
+	footer .Footer-middle-section .contact-info {padding-left: 60px;}
+	footer .Footer-middle-section .footer-news-list {padding-left: 25px;}
+	.theme-main-menu>.menu-full-width .main-menu {padding: 15px 0 0 25px}
+	.theme-main-menu>.menu-full-width .main-menu .search-button-content {width: 230px;}
+	.theme-main-menu>.menu-full-width .navbar {width: calc(100% - 332px);}
+	.theme-main-menu>.menu-full-width .main-menu .search-button-content .phone-number {display: none;}
+	.create-a-strong-full-width .strong-full-width-left-item .create-strong-text {max-width: 470px;}
+	#Create-Strong-Slider {padding-left: 0;}
+	.single-product-details .review-tab .nav-tabs > li > a {font-size: 20px; margin-right: 10px;}
+	.statement-box {width: 120px;height: auto;position: fixed;right: 0;bottom: 15%;}
+}
+/*(max-width: 1199px)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.Insurance-Service .service-item {padding: 0 15px 30px 30px;}
+	.About-Us-Details .details-wrapper>li .about-text {padding-left: 0; padding-top: 0px;}
+	.About-Us-Details .details-wrapper>li .about-text>p {font-size: 17px; line-height: 32px;}
+	.Theme-Inner-Top-Header .top-header-text {display: none;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+@media (max-width: 991px) {
+	.top-header .header-need-help {width: 50%;}
+	.top-header .header-need-help .help-button {margin-left: 0px;}
+	.top-header .top-header-text, .top-header .top-header-button,
+	.top-header .top-header-icon>li, .top-header .header-need-help>li {line-height: 50px;}
+	/*========  Theme Menu  =========*/
+	#search-button {width: 40px; background: #c661fa; color: #fff;}
+	#search-button:hover {color: #fff;}
+	.theme-main-menu.fixed .main-menu .navbar-nav >li>a {line-height: 46px;}
+	.theme-main-menu.fixed .main-menu {padding: 1px 0;}
+	.navbar {float: left !important;}
+	.theme-main-menu .main-menu .them-logo {float: right; width: calc(100% - 250px); text-align: center;}
+	.main-menu {position: relative; padding: 1px 15px 1px;}
+	.navbar {position: static;}
+	.main-menu .navbar-collapse {position: absolute; left: 0; right: 0; width: 100%; float: none; border: none;}
+	.main-menu .navbar-nav {background: #a206f2; margin-top: 0px; max-height: 300px; overflow-y: auto;}
+    .navbar-nav,.navbar-nav>li,.navbar-header,.theme-main-menu .navbar-toggle {float: none;}
+	.navbar-collapse.collapse{display: none !important;}
+    .navbar-collapse.collapse.in,.navbar-toggle{display: block !important;}
+	.main-menu .navbar-nav >li>a {line-height: 46px; border-right: none; color: #fff; padding: 0 60px 0 15px;}
+	.main-menu .navbar-nav >li>a>span {display: none !important;}
+	.main-menu .navbar-nav >li.active,
+	.main-menu .navbar-nav>li {border-top: solid 1px #fff;}
+	.main-menu .navbar-nav>li.dropdown-holder .sub-menu { 
+		-webkit-transition: none;
+		   -moz-transition: none;
+			-ms-transition: none;
+			 -o-transition: none;
+				transition: none;
+		opacity: 1; visibility: visible; position: static; box-shadow: none; width: 100%; display: none;
+		-webkit-transform: scaleY(1);
+		   -moz-transform: scaleY(1);
+			-ms-transform: scaleY(1);
+			 -o-transform: scaleY(1);
+				transform: scaleY(1);
+	}
+	.main-menu .navbar-nav>li.dropdown-holder .sub-menu>li>a {line-height: 40px; border-top: solid 1px #fff;}
+	.main-menu .navbar-nav>li.dropdown-holder .sub-menu>li>a:hover {padding-left: 28px;}
+    .main-menu nav ul li.dropdown-holder .fa {display: block;}
+	.theme-v-2-menu-and-banner .theme-main-menu-version-two .main-menu .navbar-nav >li.active>a, .theme-v-2-menu-and-banner .theme-main-menu-version-two .main-menu .navbar-nav >li:hover>a, .theme-v-2-menu-and-banner .theme-main-menu-version-two .main-menu .navbar-nav >li:focus>a,
+	.main-menu nav ul li.active.dropdown-holder .fa, .main-menu nav ul li:hover.dropdown-holder .fa, .main-menu .navbar-nav >li.active>a, .main-menu .navbar-nav >li:hover a, .main-menu .navbar-nav >li:focus a {color: #fff;}
+	/*====*/
+	.quickly-and-easily>h2>br, .quickly-and-easily>p>br {display: none;}
+	.Insurance-Service .service-item {padding: 0 15px 30px 35px;}
+	.Getting-Business .Getting-Business-img {margin-bottom: 80px;}
+	footer .Footer-middle-section .contact-info {padding-left: 0;}
+	footer .Footer-middle-section .footer-news-list {padding-left: 0;}
+	footer .Footer-middle-section .footer-logo {margin-bottom: 80px;}
+	/**----**/
+	.theme-main-menu>.menu-full-width .navbar {float: none; width: auto; text-align: left;}
+	.theme-main-menu>.menu-full-width .main-menu .them-logo {float: right; width: calc(100% - 405px); text-align: center;}
+	.theme-main-menu>.menu-full-width .navbar .navbar-nav>li {float: none; display: block;}
+	.theme-main-menu>.menu-full-width .main-menu,
+	.theme-main-menu.fixed>.menu-full-width .main-menu {padding: 1px 0 1px 10px}
+	.theme-main-menu>.menu-full-width .main-menu .search-button-content {width: 365px;}
+	.theme-main-menu>.menu-full-width .main-menu .search-button-content .phone-number {display: block;}
+	.theme-main-menu>.menu-full-width .main-menu .navbar-collapse {padding: 0 10px;}
+	/**----**/
+	.insurance-list-margin-bottom {margin-bottom: 100px;}
+	.create-a-strong-full-width .strong-full-width-left-item {height: auto;}
+	.create-a-strong-full-width .strong-full-width-left-item .create-strong-text {max-width: 750px; float: none; margin: 0 auto; padding: 0 15px;}
+	.create-a-strong-full-width .create-strong-img-item .image-item {height: 250px;}
+	.create-a-strong-full-width .create-strong-img-item {padding-left: 0; margin-bottom: 80px;}
+	.Getting-Business .Getting-Business-img.Getting-Business-Right-Item {padding: 0 0px 0 30px;}
+	.Theme-Inner-Banner .banner-content {padding: 170px 0 120px;}
+	.Theme-Inner-Banner .banner-opacity {min-height: auto;}
+	.about-us-create-a-strong .create-strong-text {padding-top: 80px;}
+	.About-Us-Details .details-wrapper>li .about-text {padding: 40px 0 10px;}
+	.Single-Page-Right-Side {margin-top: 100px;}
+	.Portfolio-Gallery-M {margin: 100px 0;}
+	.side-bar-section {margin-top: 100px;}
+	.blog-post-list-wrapper>.blog-prev-next-button>li>a {width: 45px; line-height: 38px;}
+	.blog-post-list-wrapper>.blog-prev-next-button>li>a>i {line-height: 38px;}
+	.blog-post-list-wrapper>.blog-prev-next-button>li:last-child {margin: 0 0 0 15px;}
+	.blog-post-list-wrapper>.blog-prev-next-button>li {margin-right: 5px;}
+	.Comment-and-Reply-wrapper .Next-and-Prev-Post>div {width: 49%;}
+	.shop-sidebar {margin-top: 100px;}
+	.shop-page-details {margin: 100px 0 0;}
+	.Testimonial-Pages h3>br {display: none;}
+	.Contact-Us .Contact-Us-Info {margin-top: 80px;}
+	.top-header .header-need-help .Top-Header-Language .cart {line-height: 50px; padding-top: 0;}
+	.top-header .header-need-help .Top-Header-Language .cart>span {top: -5px;}
+	.top-header-icon .Login-button>a {margin: 0;}
+	.Theme-Inner-Top-Header {padding: 0 10px;}
+}
+/*(max-width: 991px)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.portfolio-item .item-opacity>div {left: 20px; right: 20px; padding: 20px 6px 10px;}
+	.portfolio-item .item-opacity>div>h6 {margin-bottom: 10px;}
+	.portfolio-item .item-opacity>div>a {top: -55px;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+@media (max-width: 767px) {
+	.top-header .top-header-button {width: 100%; float: none;}
+	.top-header .top-header-text {float: none; text-align: center; line-height: 25px; margin: 10px 0;}
+	.top-header .top-header-icon>li>ul {margin-right: 0;}
+	#theme-main-banner .camera_caption .container h1 {font-size: 55px; line-height: 67px;}
+	.Theme-title h3 {width: 100%; display: block; padding-right: 0;}
+	.Theme-title h3>br {display: none;}
+	.Theme-title a {display: block; float: right; margin-top: 20px;}
+	footer .Footer-middle-section .Footer-middle-menu-section form>input {border-top: solid 2px #ececec; padding-bottom: 0;}
+	footer .Footer-middle-section .Footer-middle-menu-section form>button {padding-bottom: 0;}
+	footer .Footer-middle-section .Footer-middle-menu-section form {margin: 30px 0;}
+	.about-us-create-a-strong {margin: 80px 0 0 0;}
+	.Service-V-2-Insurance-Service .insurance-service-four-column .item-bg-v-two {min-height: auto;}
+	.Comment-and-Reply-wrapper .Next-and-Prev-Post>div {width: 100%; float: none;}
+	.Comment-and-Reply-wrapper .Next-and-Prev-Post>div:nth-of-type(1) {margin-bottom: 40px;}
+	.Comment-and-Reply-wrapper .Reply-wrapper>ul>li {padding-left: 110px;}
+	.Comment-and-Reply-wrapper .Reply-wrapper>ul>li>img {left: 0;}
+	.value-decrease-and-button .Size-chart>a {margin-left: 40px;}
+}
+/*(max-width: 767px)*/
+@media (max-width: 650px) {
+	.Insurance-Service .service-item {padding: 0 15px 30px 55px;}
+	.single-product-details .product-order-img .vig-img {margin-right: 0;}
+	.value-decrease-and-select .value-section {padding-left: 0; margin-top: 30px;}
+	.value-decrease-and-button .Size-chart>a {margin-left: 0; margin-top: 50px;}
+	.value-decrease-and-button .value-decrease-and-select>ul>li,
+	.value-decrease-and-button .Size-chart>ul {display: block;}
+	.top-header .Theme-Inner-Top-Header .top-header-icon, .top-header .Theme-Inner-Top-Header .header-need-help {width: 100%; float: none; text-align: center;}
+}
+/*(max-width: 650px)*/
+@media (max-width: 600px) {
+	.quickly-and-easily>ul>li {display: block;}
+	.quickly-and-easily>ul>li:nth-of-type(2) {margin: 30px 0 0 ;}
+	.quickly-and-easily>p {margin-bottom: 40px;}
+	footer .Footer-middle-section .footer-col-full-width {width: 100%; margin-bottom: 40px;}
+	.theme-main-menu>.menu-full-width .main-menu .them-logo {width: calc(100% - 250px);}
+	.theme-main-menu>.menu-full-width .main-menu .search-button-content {width: 212px;}
+	.theme-main-menu>.menu-full-width .main-menu .search-button-content .phone-number {display: none;}
+	.Portfolio-v2-Gallery-Wrapper {padding: 0 10px;}
+	.shop-product-wrapper>div>div.col-xs-6 {width: 100%;}
+	.theme-pagination-one>.blog-prev-next-button>li>a {width: 45px; line-height: 38px;}
+	.theme-pagination-one>.blog-prev-next-button>li>a>i {line-height: 38px;}
+	.theme-pagination-one>.blog-prev-next-button>li:last-child {margin: 0 0 0 15px;}
+	.theme-pagination-one>.blog-prev-next-button>li {margin-right: 5px;}
+}
+/*(max-width: 600px)*/
+@media (max-width: 500px) {
+	#theme-main-banner .camera_caption {text-align: center;}
+	#theme-main-banner .camera_caption .container a.banner-button-left {display: block; margin: 0 auto;}
+	#theme-main-banner .camera_caption .container a.banner-video-button {margin: 40px 0 0;}
+	#theme-main-banner .camera_caption .Content-v-two a.banner-video-button {margin-right: 35px; margin-top: 0;}
+	#theme-main-banner .camera_caption .Content-v-two a.banner-button-left {margin-bottom: 50px;}
+	#theme-main-banner .camera_caption .Content-v-two {padding-top: 40px;}
+	.portfolio-item .item-opacity>div {left: 20px; right: 20px; padding: 20px 6px 10px;}
+	.portfolio-item .item-opacity>div>h6 {margin-bottom: 10px;}
+	.portfolio-item .item-opacity>div>a {top: -55px;}
+	.Team-Pages .Team-Item-W {width: 100%;}
+}
+/*(max-width: 500px)*/
+@media (max-width: 480px) {
+	.theme-main-menu .main-menu .them-logo {width: calc(100% - 80px);}
+	.phone-number {display: none;}
+	#search-button {margin-right: 0;}
+	.theme-main-menu>.menu-full-width .main-menu .search-button-content {width: 200px;}
+	.theme-main-menu>.menu-full-width .main-menu,
+	.theme-main-menu.fixed>.menu-full-width .main-menu {padding: 1px 5px 1px}
+	.blog-post-list-wrapper>.blog-post-list-item .blog-post-list-text>ul>li {float: none !important;}
+	.Comment-and-Reply-wrapper .Reply-wrapper>ul>li>div>span {margin-right: 0; display: block;}
+	.single-product-details .product-order-img .small-img {margin-bottom: 25px;}
+	#review .single-review {padding: 30px 10px 30px 10px;}
+	#review .single-review img {width: 65px; height: 65px;}
+	#review .single-review .text {width: calc(100% - 65px); padding-left: 15px;}
+}
+/*(max-width: 480px)*/
+@media (max-width: 440px) {
+	.top-header .top-header-icon,
+	.top-header .header-need-help {width: 100%; float: none; text-align: center;}
+	.quickly-and-easily>h2 {font-size: 40px;}
+	.Insurance-Service .service-item {padding: 0 10px 20px 20px;}
+	.Map-Details-Section .Quick-Contact .Contact {padding: 40px 20px;}
+	.Portfolio-Project-Prev-Next a {width: 130px; line-height: 40px; font-size: 18px;}
+	.value-decrease-and-select .content-and-select {width: 100%;}
+	.value-decrease-and-select {padding-left: 80px;}
+	.value-decrease-and-button .Size-chart>ul>li>button {margin-bottom: 5px;}
+}
+/*(max-width: 440px)*/
+@media (max-width: 380px) {
+	.history-item-width {width: 100%;}
+	.portfolio-item .item-opacity>div {left: 8px; right: 8px; padding: 10px 2px 10px;}
+	.portfolio-item .item-opacity>div>h6 {margin-bottom: 0;}
+	.portfolio-item .item-opacity>div>p {font-size: 15px; line-height: 25px;}
+}
+/*(max-width: 380px)*/
